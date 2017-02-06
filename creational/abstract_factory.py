@@ -1,4 +1,4 @@
-"""Implementation of abstract factory pattern"""
+"""Use a generic function with specific factories"""
 
 import random
 
