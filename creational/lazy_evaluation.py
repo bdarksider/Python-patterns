@@ -2,11 +2,11 @@
 
 import functools
 
-
 class lazy_property(object):
 
     def __init__(self, function):
         self.function = function
+        # relatives is function now!
         functools.update_wrapper(self, function)
 
     def __get__(self, obj, type_):
