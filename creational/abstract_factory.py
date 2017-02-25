@@ -20,6 +20,14 @@ class PetShop(object):
 
 # Stuff that our factory makes
 
+class Dog(object):
+
+    def speak(self):
+        return "woof"
+
+    def __str__(self):
+        return "Dog"
+
 class Cat(object):
 
     def speak(self):
